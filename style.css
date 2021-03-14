@@ -1,0 +1,61 @@
+.bg-img {
+    /* The image used */
+    background-image: url("./bgimg.jpg");
+  
+    height: 100vh;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+  }
+  
+  /* Position the navbar container inside the image */
+  .container {
+   
+    margin-top: 10px;
+    width: auto;
+  }
+  
+  /* The navbar */
+  .topnav {
+    overflow: hidden;
+    margin-top: 20px;
+    
+  }
+  
+  /* Navbar links */
+  .topnav a {
+   
+    color: #333;
+   
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    
+  }
+  @media (max-width:800px) {
+    .bg-img {
+      height: 350px !important;
+    }
+    .topnav a{
+      padding: 10px 6px !important;
+      font-size: 10px !important;
+    }
+    .heading{
+      margin-top: 30% !important;
+      font-size: 30px !important;
+    }
+  }
+  
+ .heading{
+   margin-top: 20%;
+   font-family: 'RocknRoll One', sans-serif;
+   color: #fff;
+   font-size: 60px;
+   font-weight: 600;
+   text-shadow: #333;
+ }
